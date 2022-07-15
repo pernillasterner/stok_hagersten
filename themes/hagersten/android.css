@@ -1,0 +1,154 @@
+/* Tamil (UTF-8) initialisation for the jQuery UI date picker plugin. */
+/* Written by S A Sureshkumar (saskumar@live.com). */
+jQuery(function($){
+	$.datepicker.regional['ta'] = {
+		closeText: 'மூடு',
+		prevText: 'முன்னையது',
+		nextText: 'அடுத்தது',
+		currentText: 'இன்று',
+		monthNames: ['தை','மாசி','பங்குனி','சித்திரை','வைகாசி','ஆனி',
+		'ஆடி','ஆவணி','புரட்டாசி','ஐப்பசி','கார்த்திகை','மார்கழி'],
+		monthNamesShort: ['தை','மாசி','பங்','சித்','வைகா','ஆனி',
+		'ஆடி','ஆவ','புர','ஐப்','கார்','மார்'],
+		dayNames: ['ஞாயிற்றுக்கிழமை','திங்கட்கிழமை','செவ்வாய்க்கிழமை','புதன்கிழமை','வியாழக்கிழமை','வெள்ளிக்கிழமை','சனிக்கிழமை'],
+		dayNamesShort: ['ஞாயிறு','திங்கள்','செவ்வாய்','புதன்','வியாழன்','வெள்ளி','சனி'],
+		dayNamesMin: ['ஞா','தி','செ','பு','வி','வெ','ச'],
+		weekHeader: 'Не',
+		dateFormat: 'dd/mm/yy',
+		firstDay: 1,
+		isRTL: false,
+		showMonthAfterYear: false,
+		yearSuffix: ''};
+	$.datepicker.setDefaults($.datepicker.regional['ta']);
+});
+
+/*MAIN MENU*/
+.main-menu.pie ul {
+    text-align: left;
+}
+
+#menu-mainmenu {
+    height: auto;
+}
+#menu-mainmenu > .menu-item {
+    width: 100%;
+    box-sizing: border-box !important;
+    border-right: none;
+    border-bottom: 1px solid #ddd;
+    border-top: 1px solid #eee;
+    margin-bottom: 0;
+    padding: 10px 0;
+}
+.site-header {
+    /*background-color: red;*/
+    display: none;
+}
+.main-menu {
+    margin: 0;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.menu-item-has-children .sub-menu {
+    display: none;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    margin: 0;
+    margin-top: 15px !important;
+    padding: 0;
+    overflow: hidden;
+    margin-bottom: -11px !important;
+    border: 0;
+}
+
+.menu-item-has-children .sub-menu {
+    display: none;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    margin: 0;
+    margin-top: 15px !important;
+    padding: 0;
+    overflow: hidden;
+    margin-bottom: -11px !important;
+    border: 0;
+}
+
+.menu-item-has-children .sub-menu .menu-item-has-children .sub-menu {
+    width: 100%;
+    left: 0;
+}
+
+.menu-item-has-children .sub-menu .menu-item-has-children .sub-menu li {
+    border-left: none !important;
+    border-right: none !important;
+}
+
+.main-menu.pie ul {
+    margin: 0;
+    width: 100%;
+}
+
+.main-menu.pie ul li {
+    margin-bottom: 0;
+    padding: 10px 0;
+    border: 0;
+}
+
+.main-menu.pie ul li a {
+    padding-left: 20px;
+    font-size: 15px;
+}
+
+#eyebrow form {
+    display: none;
+    clear: both;
+    width: 100%;
+    box-sizing: border-box;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+#searchform .search-input {
+    width: 180px !important;
+}
+#searchform .submit {
+    /*width: 16%;*/
+}
+
+.main-menu form {
+    display: block;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.menu-icon {
+    position:relative;
+    display:inline-block;
+    width: 30px;
+    text-indent: -999px;
+    display: block;
+}
+
+.border-icon {
+    height: 15px;
+    border-top: 5px solid #000;
+    border-bottom: 5px solid #000;
+    float: right;
+    margin-top: 30px;
+    margin-right: 30px;
+}
+
+.border-icon:before {
+    content: "";
+    position: absolute;
+    top: 5px;
+    left: 0;
+    width: 100%;
+    border-top: 5px solid #000;
+}

@@ -1,0 +1,878 @@
+/*-----------------------------------------------------------------------------------
+
+    Theme Name: Svenska Kyrkan Hägersten
+    Author: Robert Hedman
+    URI: http://www.hagersten.org/
+    Version: 1.2
+
+-----------------------------------------------------------------------------------
+
+
+
+/* iPhone 4 Landscape view----------- */
+
+#date{
+    display:none !important;
+}
+
+@media screen and (min-width: 321px) and (max-width: 640px) {
+
+body {
+    padding: 0;
+}
+
+#wrapper, header.site-header, #credit{
+		width:100%;
+	}
+
+	.meta *{
+	    display:none;
+	}
+
+	.col1 p{
+		font-size:18px;
+		word-break: break-word;
+	}
+
+	.main-menu{
+		margin:20px 0 0 10px;
+		width:460px;
+		float:left;
+	}
+
+	.main-menu ul li a {
+
+	}
+
+	.main-menu.pie ul{
+		margin:0 auto 0 auto;
+		float:none;
+		width:460px;
+		text-align:center;
+	}
+
+	.main-menu.pie ul li{
+		float:none;
+		display:inline-block;
+		margin-bottom:5px;
+	}
+
+
+	#footerWrapper{
+		width:460px;
+	}
+
+	#footerWrapper dl{
+		margin-bottom:30px;
+		width:200px;
+	}
+
+	.col0{
+		margin-top:10px;
+		width:460px;
+	}
+
+	.col1{
+		margin-left:10px;
+		margin-top:0;
+	}
+
+	.col2{
+		width:460px;
+		max-width:460px;
+	}
+
+		.page-template-template-landingpage-php .col2{
+			float:left;
+			margin:0 auto;
+			width:440px;
+			max-width:440px;
+			float:none;
+			clear:both;
+		}
+
+	.page-template-template-startpage-php .col2, .page-template-template-landingpage-music-php .col2{
+		width:460px;
+		margin-top:0px;
+	}
+
+
+	.calendar-item a{
+		background-position: 415px 0;
+	}
+
+	.calendar-item:hover a, .calendar-item a:hover{
+		background-position: 425px 0;
+	}
+
+	.page-template-template-landingpage-php .col1{
+			float:left;
+			margin-left:10px;
+			width:460px;
+			max-width:460px;
+			text-align
+		}
+
+
+
+		.page-template-template-landingpage-php .calendar-item{
+			width:420px;
+			float:left;
+			margin-right:10px;
+		}
+
+			.calendar-item a{
+				background-position:400px 0;
+			}
+
+			.calendar-item:hover a, .calendar-item a:hover{
+				background-position:405	px 0;
+			}
+
+		.page-template-template-startpage-php .calendar-item, .page-template-template-landingpage-music-php .calendar-item{
+			width:440px;
+		}
+
+			.page-template-template-startpage-php .calendar-item.last, .page-template-template-startpage-php .calendar-item.last{
+				float:left;
+			}
+
+	.landingpage-puff, .landingpage-puff.last{
+		float:none;
+		margin:0 auto 15px auto;
+		width:440px;
+		height:278px;
+	}
+
+		.landingpage-puff img{
+			width:440px;
+			height:239px;
+		}
+
+	.share{
+		display:none;
+	}
+
+	.first-page-puff{
+		margin-top:0;
+		margin-bottom:20px;
+		height:320px;
+	}
+
+	.first-page-puff p{
+	    font-size:16px;
+	    line-height:20px;
+	    height:80px;
+	}
+
+	.first-page-puff h2 a{
+	    font-size:20px;
+	}
+
+
+	.first-page-puff.last{
+		float:left;
+		margin-right:20px;
+	}
+
+	.first-page-puff-colored{
+		width:220px;
+		margin-top:0;
+		margin-bottom:20px;
+	}
+
+	.first-page-puff-colored.last{
+		float:left;
+	}
+
+	.first-page-puff-colored ul{
+	    font-size:16px;
+	    line-height:20px;
+	}
+
+	#carousel{
+	    display:none;
+	}
+
+	.carousel-mobile{
+	    display:block;
+	    -moz-border-radius:15px;
+	    -webkit-border-radius:15px;
+	    border-radius:15px;
+	    width:460px;
+	    height:387px;
+	    overflow:hidden;
+	}
+
+
+	.carousel-mobile .carousel-text{
+		height:110px;
+		width:420px;
+		background:none;
+		float:left;
+		position:static;
+	}
+
+	.carousel-mobile .carousel-text h2 a{
+	    font-size:24px;
+	}
+
+	.carousel-mobile .carousel-text p{
+	    line-height:24px;
+	}
+
+		.carousel-mobile img{
+			width:460px;
+			height:215px;
+		}
+
+		.carousel-mobile p{
+			width:400px;
+		}
+
+	#browsable{
+		width:460px;
+		height:327px;
+	}
+
+	#carousel .item{
+		width:460px;
+		height:327px;
+	}
+
+	.navi{display:none;}
+
+	.landingpage-musik-puff{
+		width:460px;
+		height:206px;
+	}
+
+	    .landingpage-musik-puff img{
+		    width:460px;
+		    height:159px;
+	    }
+
+	.landingpage-musik-puff ul{
+		height:47px;
+		width:460px;
+		text-align:center;
+		padding-left:0;
+	}
+
+	.landingpage-musik-puff ul li{
+
+		display:none;
+	}
+
+	.landingpage-musik-puff select{
+	    display:block;
+	    width:450px;
+	    margin:5px 0 0 5px;
+	    font-size:20px;
+	}
+
+	.landingpage-musik-puff h2{
+	    font-size:30px;
+	}
+
+	#date{
+	    display:none !important;
+	}
+
+	.calendar-item a{
+		background-position: 405px 0;
+	}
+
+	.calendar-item:hover a, .calendar-item a:hover{
+		background-position: 410px 0;
+	}
+
+	#date div.datepicker{
+		width:460px !important;
+	}
+
+	#date .datepickerDays a{
+		width:45px;
+		height:45px;
+		line-height:45px;
+	}
+
+	.col2 .calendar-item{
+	    height:auto;
+	}
+
+	.calendar-item a, .calendar-item p, .calendar-item strong, .calendar-item em{
+	    font-size:16px;
+	}
+
+	.calendar-item a{
+	    padding-bottom:10px;
+	}
+}
+
+
+
+
+/* iPhone 4 Portait view ----------- */
+@media screen and (max-width: 480px) {
+
+    body{
+	padding:0;
+    }
+
+    .logotype {
+        width: 175px;
+    }
+
+
+#wrapper, header.site-header, #credit{
+		width:320px;
+		max-width:320px;
+		overflow:hidden;
+	}
+
+	.meta *{
+	    display:none;
+	}
+
+	.col1 p{
+	    font-size:18px;
+	}
+
+	.main-menu{
+		margin:20px 0 0 10px;
+		width:300px;
+		float:left;
+	}
+
+	.main-menu ul li a {
+		font-size:12px;
+	}
+
+	.main-menu.pie ul{
+		margin:0 auto 0 auto;
+		float:none;
+		width:300px;
+		text-align:center;
+	}
+
+	.main-menu.pie ul li{
+		float:none;
+		display:inline-block;
+		margin-bottom:5px;
+		padding:3px 5px;
+	}
+
+	.main-menu.pie ul li.current_page_item, .main-menu ul li.current_page_parent{
+	    padding:3px 5px;
+	}
+
+	#footerWrapper{
+		width:320px;
+		margin-bottom:0;
+	}
+
+	#footer{
+	    padding-left:0;
+	    padding-right:0;
+	    margin: 30px 0 0 10px;
+	    width:300px;
+	}
+
+	#footerWrapper dl{
+		margin-bottom:15px;
+		width:150px;
+		font-size:10px;
+	}
+
+	#footerWrapper dl dd{
+	    font-size:10x;
+	}
+
+	.col0{
+		margin-top:10px;
+		width:300px;
+	}
+
+	.col1{
+		margin: 0;
+		padding: 10px;
+		box-sizing: border-box;
+		max-width: 100%;
+	}
+
+	.contact-person {
+	  width: 50%;
+	}
+
+	.contact-person:nth-child(3n+3), .contact-person:nth-child(3n+4) {
+	  clear: none;
+	}
+
+	.search .col1{
+	    width:300px;
+	}
+
+	.col2{
+		width:300px;
+		max-width:300px;
+	}
+
+		.page-template-template-landingpage-php .col2{
+			float:left;
+			margin:0 auto;
+			width:300px;
+			max-width:300px;
+			float:none;
+			clear:both;
+		}
+
+	.page-template-template-startpage-php .col2, .page-template-template-landingpage-music-php .col2{
+		width:300px;
+		margin-top:0px;
+	}
+
+
+	.calendar-item a{
+		background-position: 415px 0;
+	}
+
+	.calendar-item:hover a, .calendar-item a:hover{
+		background-position: 425px 0;
+	}
+
+	.page-template-template-landingpage-php .col1{
+			float:left;
+			margin-left:10px;
+			width:300px;
+			max-width:300px;
+		}
+
+
+
+		.page-template-template-landingpage-php .calendar-item{
+			width:280px;
+			float:left;
+			margin-right:10px;
+		}
+
+			.calendar-item a{
+				background-position:280px 0;
+			}
+
+			.calendar-item:hover a, .calendar-item a:hover{
+				background-position:405	px 0;
+			}
+
+		.page-template-template-startpage-php .calendar-item, .page-template-template-landingpage-music-php .calendar-item{
+			width:280px;
+		}
+
+			.page-template-template-startpage-php .calendar-item.last, .page-template-template-startpage-php .calendar-item.last{
+				float:left;
+			}
+
+	.landingpage-puff, .landingpage-puff.last{
+		float:none;
+		margin:0 auto 15px auto;
+		width:300px;
+		height:193px;
+	}
+
+		.landingpage-puff img{
+			width:300px;
+			height:152px;
+		}
+
+	.share{
+		display:none;
+	}
+
+	.first-page-puff{
+		margin-top:0;
+		margin-bottom:20px;
+		width:300px;
+		height:370px;
+	}
+
+	.first-page-puff p{
+	    font-size:16px;
+	    line-height:20px;
+	    height:70px;
+	}
+
+	.first-page-puff img{
+	    width:300px;
+	    height:auto;
+	}
+
+	.first-page-puff h2 a{
+	    font-size:20px;
+	}
+
+	.first-page-puff.last{
+		float:left;
+		margin-right:20px;
+	}
+
+	.first-page-puff-colored{
+		width:140px;
+		margin-top:0;
+		margin-bottom:20px;
+	}
+
+	.first-page-puff-colored ul{
+	    font-size:13px;
+	}
+
+	.first-page-puff-colored.last{
+		float:left;
+	}
+
+	.puff-read-more{
+	    width:280px;
+	}
+
+	#carousel{
+	    display:none;
+	}
+
+	.carousel-mobile{
+	    display:block;
+	}
+
+
+	.carousel-mobile{
+	    width:300px;
+	    height:340px;
+	    overflow:hidden;
+	    -moz-border-radius:15px;
+	    -webkit-border-radius:15px;
+	    border-radius:15px;
+	}
+
+	.carousel-mobile .carousel-text{
+		height:110px;
+		width:300px;
+		background:none;
+		float:left;
+		position:static;
+		padding: 0 10px;
+	}
+
+		.carousel-mobile img{
+			width:300px;
+			height:154px;
+		}
+
+		.carousel-mobile p{
+			width:280px;
+		}
+
+	#browsable{
+		width:300px;
+		height:280px;
+	}
+
+	#carousel .item{
+		width:300px;
+		height:267px;
+	}
+
+	.navi{display:none;}
+
+	.landingpage-musik-puff{
+		width:300px;
+		height:167px;
+	}
+
+	.landingpage-musik-puff img{
+	    width:300px;
+	    height:120px;
+	}
+
+	.landingpage-musik-puff ul{
+		width:300px;
+		height:47px;
+		text-align:center;
+		padding-left:0;
+	}
+
+	.landingpage-musik-puff ul li{
+		display:none;
+	}
+
+	.landingpage-musik-puff h2{
+	    font-size:30px;
+	}
+
+	.landingpage-musik-puff select{
+	    display:block;
+	    width:290px;
+	    margin:5px 0 0 5px;
+	    font-size:20px;
+	}
+
+	#hide-dates{
+            display:none;
+        }
+
+
+	#date{
+	    display:none !important;
+	}
+
+	.col1 .calendar-item{
+	    width:260px;
+	}
+
+
+	.col2 .calendar-item{
+	    height:auto;
+	}
+
+	.calendar-item a, .calendar-item p, .calendar-item strong, .calendar-item em{
+	    font-size:16px;
+	}
+
+	.calendar-item a{
+	    padding-bottom:10px;
+	}
+	.calendar-item a{
+		background-position: 265px 0;
+	}
+
+	.calendar-item:hover a, .calendar-item a:hover{
+		background-position: 270px 0;
+	}
+
+	#date div.datepicker{
+		width:420px !important;
+	}
+
+	#date .datepickerDays a{
+		width:45px;
+		height:45px;
+		line-height:45px;
+	}
+
+	#credit, #copyright, .credit, #credit .credit a{
+	    font-size:9px;
+	}
+
+	#date{
+	    display:none !important;
+	}
+
+
+	#date div.datepicker{
+		width:300px !important;
+	}
+
+	#date .datepickerDays a{
+		width:35px;
+		height:35px;
+		line-height:35px;
+	}
+
+	#calendarTableWeek{
+	    width:300px;
+	    font-size:11px;
+	}
+
+	.calendarTimeStamp{
+	    width:40px;
+	    font-size:11px;
+	}
+
+	.calendarEventContainer{
+	    width:240px;
+	    font-size:11px;
+	}
+
+	.switch-weeks{
+	    width:280px;
+	}
+
+	.switch-weeks p{
+	    width:236px;
+	}
+
+	.single .col1 img.pie, .page-template-default .col1 img.pie{
+	    width:300px;
+	    height:auto;
+	}
+
+	.single .col1{
+	    width:300px;
+	}
+
+	.single .col1 table, .page-template-default .col1 table{
+	    max-width:280px;
+	}
+
+	.single .col1 table td img, .page-template-default .col1 table td img{
+	    max-width:48%;
+	    height:auto;
+	}
+
+	.page-template-default .col1 p,
+	.page-template-default .col1 h1,
+	.page-template-default .col1 h2,
+	.page-template-default .col1 h3,
+	.page-template-default .col1 h4,
+	.page-template-default .col1 h5,
+	.page-template-default .col1 h6,
+	.page-template-default .col1 ui,
+	.page-template-default .col1 li{
+	    max-width:300px;
+	}
+
+        body.archive article, body.category article{
+            float:left;
+            width:300px;
+        }
+
+        .archive article aside,
+        .category article aside,
+        .archive article p,
+        .category article p,
+        .archive article aside img,
+        .category article aside img{
+            float:none;
+            clear:both;
+            width:300px;
+        }
+
+
+        /*MAIN MENU*/
+        .main-menu.pie ul {
+            text-align: left;
+        }
+
+        #menu-mainmenu {
+            height: auto;
+        }
+        #menu-mainmenu > .menu-item {
+            width: 100%;
+            box-sizing: border-box !important;
+            border-right: none;
+            border-bottom: 1px solid #ddd;
+            border-top: 1px solid #eee;
+            margin-bottom: 0;
+            padding: 10px 0;
+        }
+        .site-header {
+            /*background-color: red;*/
+            display: none;
+        }
+        .main-menu {
+            margin: 0;
+            width: 100%;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+
+        .menu-item-has-children .sub-menu {
+            display: none;
+            position: relative;
+            top: 0px;
+            left: 0px;
+            width: 100%;
+            margin: 0;
+            margin-top: 15px !important;
+            padding: 0;
+            overflow: hidden;
+            margin-bottom: -11px !important;
+            border: 0;
+        }
+
+        .menu-item-has-children .sub-menu {
+            display: none;
+            position: relative;
+            top: 0px;
+            left: 0px;
+            width: 100%;
+            margin: 0;
+            margin-top: 15px !important;
+            padding: 0;
+            overflow: hidden;
+            margin-bottom: -11px !important;
+            border: 0;
+        }
+
+        .menu-item-has-children .sub-menu .menu-item-has-children .sub-menu {
+            width: 100%;
+            left: 0;
+        }
+
+        .menu-item-has-children .sub-menu .menu-item-has-children .sub-menu li {
+            border-left: none !important;
+            border-right: none !important;
+        }
+        
+        .main-menu.pie ul {
+            margin: 0;
+            width: 100%;
+        }
+
+        .main-menu.pie ul li {
+            margin-bottom: 0;
+            padding: 10px 0;
+            border: 0;
+        }
+
+        .main-menu.pie ul li a {
+            padding-left: 20px;
+            font-size: 15px;
+        }
+
+        #eyebrow form {
+            display: none;
+            clear: both;
+            width: 100%;
+            box-sizing: border-box;
+            padding-left: 20px;
+            padding-top: 10px;
+        }
+
+        #searchform .search-input {
+            width: 180px !important;
+        }
+        #searchform .submit {
+            /*width: 16%;*/
+        }
+
+        .main-menu form {
+            display: block;
+            padding-left: 20px;
+            padding-top: 10px;
+            padding-bottom: 20px;
+        }
+
+        .menu-icon {
+            position:relative;
+            display:inline-block;
+            width: 30px;
+            text-indent: -999px;
+            display: block;
+        }
+
+        .border-icon {
+            height: 15px;
+            border-top: 5px solid #000;
+            border-bottom: 5px solid #000;
+            float: right;
+            margin-top: 30px;
+            margin-right: 30px;
+        }
+
+        .border-icon:before {
+            content: "";
+            position: absolute;
+            top: 5px;
+            left: 0;
+            width: 100%;
+            border-top: 5px solid #000;
+        }
+}

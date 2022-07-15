@@ -1,0 +1,60 @@
+/*socialMedia*/
+.solcialMedia{
+  padding: 0px;
+  margin-bottom: 20px;
+}
+.solcialMedia li{
+/*  height: 55px;
+  width: 55px;*/
+  list-style: none;
+  display: inline-block;
+  margin: 0px 7px 7px;
+  
+}
+.icon{
+  width: 55px;
+  height: 55px;
+  background: url(bilder/socialMedia-icon.png);
+  display: block;
+}
+.icon.icon-facebook{
+  background-position: -5px 0px;
+}
+.icon.icon-twitter{
+  background-position: -82px 0px;
+}
+.icon.icon-instagram{
+  background-position: -157px 0px;
+}
+.icon.icon-youtube{
+  background-position: -230px 0px;
+}
+.icon:hover{
+  opacity: 0.8;
+}
+html#facebook {
+  width: 85%;
+}
+.custom-col-sm-2 {
+  width: 18%;
+  float: left;
+  clear: both;
+  padding-top: 10px;
+}
+.custom-col-sm-8 {
+  width: 82%;
+  float: left;
+  padding-top: 10px;
+}
+.custom-row p {
+    margin-bottom: 0;
+    margin-top: 5px;
+}
+.clearefix {
+    clear: both;
+    float: none;
+}
+.custom-row a{
+  color: #8e326a;
+  font-size: 13px;
+}
